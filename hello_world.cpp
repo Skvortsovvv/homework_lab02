@@ -3,5 +3,8 @@
 using namespace std;
 int main()
 {
-    cout << "Hello world " << endl;
+    string username;
+    cout << "Enter username: ";
+    cin >> username;
+    cout << "Hello world from "<< username << endl;
 }
